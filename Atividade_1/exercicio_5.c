@@ -1,6 +1,3 @@
-/*5 - Faça um procedimento que recebe por parâmetro o tempo de duração de
-uma fábrica expressa em segundos e imprima esse tempo em horas, minutos
-e segundos.*/
 #include <stdio.h>
 
 void tempo(float s)
