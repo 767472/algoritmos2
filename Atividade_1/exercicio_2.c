@@ -7,5 +7,6 @@ void printar(char texto[])
 
 int main()
 {
-  printar("tamo junto");
+  printar("texto\n");
+  return 0;
 }

@@ -8,4 +8,5 @@ void printar()
 int main()
 {
   printar();
+  return 0;
 }
