@@ -5,7 +5,7 @@ e retorna essa idade expressa em dias.*/
 
 int idade(int ano,int mes, int dia) 
 {
-  int idade = (ano*365)+(mes*30)+(dia);
+  return (ano*365)+(mes*30)+(dia);
 }
 int main()
 {

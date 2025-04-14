@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-char printar(char texto[])
+char printarc(char texto[])
 {
   printf ("%s",texto);
   return (printf("OK"));
@@ -11,6 +11,6 @@ char printar(char texto[])
 
 int main()
 {
-  printar("texto\n");
+  printarc("texto\n");
   return 0;
 }

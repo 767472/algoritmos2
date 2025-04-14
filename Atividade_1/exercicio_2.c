@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-void printar(char texto[])
+void printar2(char texto[])
 {
   printf ("%s",texto);
 }
 
 int main()
 {
-  printar("texto\n");
+  printar2("texto\n");
   return 0;
 }
