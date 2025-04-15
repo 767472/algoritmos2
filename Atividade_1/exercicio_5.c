@@ -17,4 +17,5 @@ void tempo(double s)
 int main()
 {
 tempo(4000);
+return 0;
 }

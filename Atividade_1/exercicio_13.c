@@ -18,4 +18,5 @@ int main()
   printf("Digite os 3 lados do triangulo: ");
   scanf("%d %d %d", &a, &b, &c);
   printf("%s\n", triangulo(a, b, c));
+  return 0;
 }

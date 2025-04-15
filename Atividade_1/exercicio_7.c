@@ -13,4 +13,5 @@ int perfeito(int num)
 int main()
 {
   printf("%d",perfeito(5));
+  return 0;
 }

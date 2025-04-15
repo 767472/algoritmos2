@@ -12,4 +12,5 @@ int main()
   scanf("%d",&numero);
   int valor = sinal(numero);
   printf("%d",valor);
+  return 0;
 }

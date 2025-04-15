@@ -14,4 +14,5 @@ int main()
   float valor;
   scanf("%f",&valor);
   printf("Conceito %c\n",nota(valor));
+  return 0;
 }

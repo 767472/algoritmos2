@@ -18,4 +18,5 @@ int main()
 {
   int resultado = media();
   printf("%d",resultado);
+  return 0;
 }

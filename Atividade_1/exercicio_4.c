@@ -19,4 +19,5 @@ int main()
   float a, b, c;
   scanf("%f %f %f",&a,&b,&c);
   baskara(a,b,c);
+  return 0;
 }

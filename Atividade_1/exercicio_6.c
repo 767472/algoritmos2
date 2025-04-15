@@ -10,5 +10,6 @@ int idade(int ano,int mes, int dia)
 int main()
 {
   printf("%d dias",idade(18,4,21));
+  return 0;
 }
 
