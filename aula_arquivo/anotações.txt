@@ -1,0 +1,17 @@
+(TIPO DE ARQUIVO)FILE *arquivo
+
+"w" white(escrita)
+"r" Ritte(leitura)
+"a" Anexar(Edição)
+
+url="";
+arquivo=fopen(url, "W");
+fclose(arquivo)
+
+caminho absuluto : "caminho completo" Ex:(C:/user/document)
+caminho relativo : depende do lugar e se adapta para chegar mais rapido
+
+o ponto de partida do caminho relativo é o main do programa
+
+
+
