@@ -1,0 +1,74 @@
+Lista de exercícios de Arquivos
+1 - Faça um programa para criar os arquivos a seguir:
+Clientes: Cod_Cli, Nome, Endereco, Fone
+Recebimentos: Num_doc, Valor_doc, Data_Emissao, Data_Vencimento, 
+Cod_Cli.
+2 - Faça um programa para cadastrar clientes no arquivo criado no 
+Exercício1.
+3 - Faça um programa que inclua recebimentos no arquivo criado no 
+Exercício 1, devendo verificar se o cliente já se encontra cadastrado.
+4 - Faça um programa que exclua clientes e, consequentemente, todos os seus 
+recebimentos, dos arquivos criados no Exercício l.
+5 - Faça um programa que altere o cadastro de clientes do Exercício 1. O 
+usuário deve informar o código do cliente que será alterado.
+6 - Faça um programa que altere um recebimento de um cliente, ou seja, o 
+usuário informa o número do documento e o número do cliente e faz as 
+alterações desejadas.
+7 - Faça um programa que mostre todos os recebimentos com data de 
+vencimento dentro de um período qualquer. Não esqueça de mostrar também 
+o nome do cliente e o total de dias em atraso. Quando não houver atraso, 
+mostrar zero.
+8 - Faça um programa que mostre todos os recebimentos de um determinado 
+cliente.
+9 - Faça um programa que mostre todos os recebimentos com valor acima de 
+um valor dado pelo usuário.
+10 - Faça um programa que mostre todos os recebimentos com valor abaixo 
+de um valor dado pelo usuário.
+11 - Faça um programa que mostre todos os recebimentos com valor entre 
+dois valores dados pelo usuário.
+12 - Faça um programa para criar os arquivos a seguir:
+-Estilista (código do estilista, nome do estilista, salário)
+-Roupa (código da roupa, descrição da roupa, código do estilista, 
+código da estação, ano)
+-Estação (código da estação, nome da estação)
+13 - Faça um programa para:
+-Cadastrar as estações climáticas, por exemplo, primavera-verão e 
+outono-inverno;
+-Cadastrar os estilistas;
+-Cadastrar as roupas. Lembre-se de que estilista e estação devem ter 
+sido previamente cadastrados;
+-Mostrar um relatório de todas as roupas de uma determinada estação, 
+informando, inclusive, o nome do estilista que a desenhou.
+14 - Faça um programa que apresente o seguinte menu de opções:
+1. Criar
+2. Incluir
+3. Sair
+Digite a opção desejada
+Na opcão 1: criar um arquivo com os campos: numero, nome, nota1 e nota2.
+Na opção 2: incluir todos os dados digitados, podendo haver repetição. No 
+final da inclusão após pressionar ENTER o programa deve mostrar todos os 
+registros cadastrados, calcular e mostrar a média das notas de cada registro.
+15 - Faça um programa para criar um arquivo chamado PRODUTOS.txt, 
+onde cada registro será composto pelos seguintes campos: codigo, descricao 
+e preco.
+16 - Faça um programa para incluir produtos no arquivo criado no Exercício 
+15 lembrando que não podem existir dois produtos com o mesmo código.
+17 - Faça um programa para consultar a descrição de todos os produtos que 
+possuem preço superior a R$ 500,00.
+18 – Faça um programa para alterar os preços de todos os produtos em 15%.
+19 – Faça um programa para alterar os preços dos produtos em R$ 10,00, 
+mas apenas os produtos que já custam mais de R$ 100,00.
+20 – Faça um programa para consultar todos os produtos cujos nomes 
+comecem pela letra M.
+21 – Faça um programa para excluir produtos do arquivo criado no Exercício 
+15.
+22 – Faça um programa para consultar os produtos com preços inferiores a 
+R$ 15,00.
+23 – Faça um programa para consultar todos os produtos com nomes 
+começados por uma letra digitada pelo usuário e com preços entre dois 
+valores também fornecidos pelo usuário.
+24 – Faça um programa para excluir todos os produtos com preço superior a 
+R$ 200,00.
+25 – Faça um programa para conceder um percentual de desconto dado pelo 
+usuário aos produtos cujos preços estão entre dois valores, também 
+fornecidos pelo usuário
