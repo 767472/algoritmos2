@@ -5,7 +5,8 @@ int main()
 {
   int x=0,y=0;
   int matriz_geral[x][y];  
-  int matriz_resul[x][y];  
+  int matriz_resul[x][y];
+  int media;  
   printf("digite o valor da matriz[x,y]");
   scanf("%d %d",&x,&y);
   for(int i=0;i<x;i++)
@@ -21,8 +22,8 @@ int main()
   {
     for(int l=0;l<5;l++)
     {
-     
+      media=+matriz_geral[i][l];
     }
-    printf("\n");  
   }
+  matriz_resul
 }
