@@ -13,15 +13,6 @@ int main(){
         }
         printf("\n");
     }
-    ordenacao_por_bolha(x,y,matriz);
-
-    printf("matriz ordenada\n");
-    for (int i = 0; i < y; i++){
-        for (int j = 0; j < x; j++){
-            printf("%d ",matriz[i][j]);
-        }
-        printf("\n");
-    }
 
     printf("media %d\n",media(x,y,matriz));
     printf("mediana%d\n",mediana(x,y,matriz));

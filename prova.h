@@ -60,44 +60,33 @@ int moda(int linha, int coluna, int matriz[linha][coluna]){
     }
     return soma/(indice_moda+1);
 }
-int mediana(int linha, int coluna, int matriz[linha][coluna]){
-    int esta_ordenado = 0, aux;
-    while(!esta_ordenado){
-        esta_ordenado = 1;
-        for(int i = 0; i < linha; i++){
-            for(int j = 0; j < coluna; j++)
-            {
-                if(j < coluna-1){
-                    if(matriz[i][j] > matriz[i][j+1]){
-                        aux = matriz[i][j];
-                        matriz[i][j] = matriz[i][j+1];
-                        matriz[i][j+1] = aux;
-                        esta_ordenado = 0;
-                    }
-                }
-                else if(i < linha-1){
-                    if(matriz[i][j] > matriz[i+1][j]){ 
-                        aux = matriz[i][j];
-                        matriz[i][j] = matriz[i+1][j];
-                        matriz[i+1][j] = aux;
-                        esta_ordenado = 0;
-                    }
-                }
+int mediana(int linha, int coluna, int matriz[linha][coluna]) {
+    int total_elementos = linha * coluna;
+    int vetor[total_elementos]; // Array unidimensional para armazenar os elementos da matriz
+    int k = 0;
+    // Copia os elementos da matriz para o array unidimensional
+    for (int i = 0; i < linha; i++) {
+        for (int j = 0; j < coluna; j++) {
+            vetor[k++] = matriz[i][j];
+        }
+    }
+    // Ordena o array unidimensional (usando Bubble Sort, por exemplo)
+    for (int i = 0; i < total_elementos - 1; i++) {
+        for (int j = 0; j < total_elementos - i - 1; j++) {
+            if (vetor[j] > vetor[j + 1]) {
+                int aux = vetor[j];
+                vetor[j] = vetor[j + 1];
+                vetor[j + 1] = aux;
             }
         }
     }
-    int total_elementos = linha*coluna;
-    int meio = total_elementos/2;
-    
-    int linha_meio = meio / coluna;
-    int coluna_meio = meio % coluna;
 
-    if(total_elementos % 2 == 0){
-        int linha_meio2 = (meio-1) / coluna;
-        int coluna_meio2 = (meio-1) % coluna;
-        return (matriz[linha_meio][coluna_meio] + matriz[linha_meio2][coluna_meio2]) / 2;
-    }
-    else{
-        return matriz[linha_meio][coluna_meio];
+    // Calcula a mediana
+    if (total_elementos % 2 == 0) {
+        // Se o número de elementos for par, retorna a média dos dois elementos centrais
+        return (vetor[total_elementos / 2] + vetor[(total_elementos / 2) - 1]) / 2;
+    } else {
+        // Se o número de elementos for ímpar, retorna o elemento central
+        return vetor[total_elementos / 2];
     }
 }
